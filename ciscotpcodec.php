@@ -11,10 +11,10 @@ $dbpass = 'spark';
 $conn = mysql_connect($dbhost, $dbuser, $dbpass);
 $directory = getcwd();
 
-file_put_contents('$directory/Spark/XML/allevents.xml', file_get_contents('php://input').PHP_EOL, FILE_APPEND);
-file_put_contents('$directory/Spark/XML/lastevent.xml', file_get_contents('php://input'));
+file_put_contents(dirname(__FILE__).'/Spark/XML/allevents.xml', file_get_contents('php://input').PHP_EOL, FILE_APPEND);
+file_put_contents(dirname(__FILE__).'/Spark/XML/lastevent.xml', file_get_contents('php://input'));
 
-$codec = simplexml_load_file('$directory/Spark/XML/lastevent.xml');
+$codec = simplexml_load_file(dirname(__FILE__).'/Spark/XML/lastevent.xml');
 $system_name = "SYSTEM NAME: " .$codec->Identification[0]->SystemName;
 $system_name1 = $codec->Identification[0]->SystemName;
 $product_type = " TYPE: " .$codec->Identification[0]->ProductID;
@@ -96,7 +96,7 @@ if($call_disconnect == "RemoteDisconnect"){
 
 if($feedback_id == "1" & $option_id == "1" ){
 	exec ("python $directory/Spark/xmlgetpreviouscall.py $codec_location");
-	$codec_previous_call = simplexml_load_file('$directory/Spark/XML/callhistory.xml');
+	$codec_previous_call = simplexml_load_file(dirname(__FILE__).'/Spark/XML/callhistory.xml');
 	$call_remoteURI = $codec_previous_call->CallHistoryGetResult[0]->Entry->RemoteNumber;
 	$survey_response = "Excellent";
 	$survey_reason = "N/A";
@@ -108,7 +108,7 @@ if($feedback_id == "1" & $option_id == "1" ){
  
 if($feedback_id == "1" & $option_id == "2" ){
 	exec ("python $directory/Spark/xmlgetpreviouscall.py $codec_location");
-	$codec_previous_call = simplexml_load_file('$directory/Spark/XML/callhistory.xml');
+	$codec_previous_call = simplexml_load_file(dirname(__FILE__).'/Spark/XML/callhistory.xml');
 	$call_remoteURI = $codec_previous_call->CallHistoryGetResult[0]->Entry->RemoteNumber;
 	$survey_response = "Good";
 	$survey_reason = "N/A";
@@ -126,7 +126,7 @@ if($feedback_id == "1" & $option_id == "3" ){
 # Surevey due to poor call quality 
 
 if($feedback_id == "5" & $option_id == "1" ){
-    $codec_previous_call = simplexml_load_file('$directory/Spark/XML/callhistory.xml');$call_remoteURI = $codec_previous_call->CallHistoryGetResult[0]->Entry->RemoteNumber;
+    $codec_previous_call = simplexml_load_file(dirname(__FILE__).'/Spark/XML/callhistory.xml');$call_remoteURI = $codec_previous_call->CallHistoryGetResult[0]->Entry->RemoteNumber;
 	$call_video_in_loss = " ----- incoming packet loss percentage: " .$codec_previous_call->CallHistoryGetResult[0]->Entry->Video->Incoming->PacketLossPercent;
 	$call_video_out_loss = " and outgoing packet loss percentage: " .$codec_previous_call->CallHistoryGetResult[0]->Entry->Video->Outgoing->PacketLossPercent;
     $message = " --- User reported poor experience on previoius call due to video quality problems on previous dailed number ";
@@ -141,7 +141,7 @@ if($feedback_id == "5" & $option_id == "1" ){
     }
     
 if($feedback_id == "5" & $option_id == "2" ){
-    $codec_previous_call = simplexml_load_file('$directory/Spark/XML/callhistory.xml');
+    $codec_previous_call = simplexml_load_file(dirname(__FILE__).'/Spark/XML/callhistory.xml');
 	$call_remoteURI = $codec_previous_call->CallHistoryGetResult[0]->Entry->RemoteNumber;
 	$call_audio_in_loss = " ----- incoming packet loss percentage: " .$codec_previous_call->CallHistoryGetResult[0]->Entry->Audio->Incoming->PacketLossPercent;
 	$call_audio_out_loss = " outgoing packet loss percentage: " .$codec_previous_call->CallHistoryGetResult[0]->Entry->Audio->Outgoing->PacketLossPercent;
@@ -157,7 +157,7 @@ if($feedback_id == "5" & $option_id == "2" ){
     }
     
 if($feedback_id == "5" & $option_id == "3" ){
-    $codec_previous_call = simplexml_load_file('$directory/Spark/XML/callhistory.xml');
+    $codec_previous_call = simplexml_load_file(dirname(__FILE__).'/Spark/XML/callhistory.xml');
 	$call_remoteURI = $codec_previous_call->CallHistoryGetResult[0]->Entry->RemoteNumber;
     $message = " --- User reported poor experience on previoius call due to dialing problem on previous dailed number ";
     $response = $system_name. $unit_address. $message. $call_remoteURI;
@@ -171,7 +171,7 @@ if($feedback_id == "5" & $option_id == "3" ){
     }
     
 if($feedback_id == "5" & $option_id == "4" ){
-    $codec_previous_call = simplexml_load_file('$directory/Spark/XML/callhistory.xml');
+    $codec_previous_call = simplexml_load_file(dirname(__FILE__).'/Spark/XML/callhistory.xml');
 	$call_remoteURI = $codec_previous_call->CallHistoryGetResult[0]->Entry->RemoteNumber;
     $message = " --- User reported poor experience on previoius call due to content sharing problem";
     $response = $system_name. $unit_address. $message;
@@ -185,7 +185,7 @@ if($feedback_id == "5" & $option_id == "4" ){
     }
     
 if($feedback_id == "5" & $option_id == "5" ){
-    $codec_previous_call = simplexml_load_file('$directory/Spark/XML/callhistory.xml');
+    $codec_previous_call = simplexml_load_file(dirname(__FILE__).'/Spark/XML/callhistory.xml');
 	$call_remoteURI = $codec_previous_call->CallHistoryGetResult[0]->Entry->RemoteNumber;
     $message = " --- User reported poor experience on previoius call due to other problem reported";
     $response = $system_name. $unit_address. $message;
@@ -202,7 +202,7 @@ if($feedback_id == "5" & $option_id == "5" ){
   
 if($feedback_id == "4" & $option_id == "1" ){
     exec ("python $directory/Spark/xmlgetpreviouscall.py $codec_location");
-    $codec_previous_call = simplexml_load_file('$directory/Spark/XML/callhistory.xml');
+    $codec_previous_call = simplexml_load_file(dirname(__FILE__).'/Spark/XML/callhistory.xml');
 	$call_remoteURI = $codec_previous_call->CallHistoryGetResult[0]->Entry->RemoteNumber;
     $message = " --- Problem connecting to scheduled meeting: ";
     $response = $system. $unit_address. $message. $call_remoteURI;
@@ -211,7 +211,7 @@ if($feedback_id == "4" & $option_id == "1" ){
     
 if($feedback_id == "4" & $option_id == "2" ){
     exec ("python $directory/Spark/xmlgetpreviouscall.py $codec_location");
-    $codec_previous_call = simplexml_load_file('$directory/Spark/XML/callhistory.xml');
+    $codec_previous_call = simplexml_load_file(dirname(__FILE__).'/Spark/XML/callhistory.xml');
 	$call_remoteURI = $codec_previous_call->CallHistoryGetResult[0]->Entry->RemoteNumber;
     $message = " --- Dialing problem on previous dailed number ";
     $response = $system. $unit_address. $message. $call_remoteURI;
