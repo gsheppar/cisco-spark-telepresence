@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Command>
+	<Dial command="True">
+		<Number>loopback@cisco.com</Number> 
+	</Dial> 
+</Command>

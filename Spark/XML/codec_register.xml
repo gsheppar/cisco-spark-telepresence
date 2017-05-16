@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Command>
+	<HttpFeedback>
+		<Register command="True"> 
+			<FeedbackSlot>1</FeedbackSlot> 
+			<ServerUrl>http://192.168.128.21/ciscotpcodec.php</ServerUrl> 
+			<Expression item="1">/Event</Expression>
+		</Register>
+	</HttpFeedback> 
+</Command>

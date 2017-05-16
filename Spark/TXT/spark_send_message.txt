@@ -1,0 +1,20 @@
+Hi my name is Video BOT and my goal is to help provide a better customer experience
+
+Commands Available
+
+:list
+	- I send a list of all the codecs
+	- Example:	:list
+_____:message
+	- I send a message to a codec 
+	- Example: CR Cavs:message I will be over in 5 minutes
+_____:question
+	- I send a yes/no question to a codec
+	- Example: CR Cavs:question Can I help you?
+_____:dail
+	- I can dial a URI/Number from a codec
+	- Example: CR Cavs:dial loopback@cisco.com
+_____:diag
+	- I get the diagnostics from a code
+	- Example: CR Cavs:diag
+

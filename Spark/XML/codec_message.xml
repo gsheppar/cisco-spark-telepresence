@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Command>
+  <UserInterface>
+    <Message>
+      <Prompt>
+        <Display command="True"> 
+          <Title>Video Services</Title>
+          <Text>You okay</Text>
+          <FeedbackId>2</FeedbackId>
+          <Option.1>Acknowledge</Option.1>
+        </Display>
+      </Prompt>
+    </Message>
+  </UserInterface>
+</Command>

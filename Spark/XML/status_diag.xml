@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Status product="Cisco Codec" version="ce8.2.1.e9daf06" apiVersion="4">
+  <Diagnostics>
+    <Message item="2" maxOccurrence="n">
+      <Description>No camera is detected</Description>
+      <Level>Warning</Level>
+      <References></References>
+      <Type>CamerasDetected</Type>
+    </Message>
+    <Message item="5" maxOccurrence="n">
+      <Description>No input video signal on selected input connector HDMI 1</Description>
+      <Level>Error</Level>
+      <References>Connector=HDMI;Source=1</References>
+      <Type>SelectedVideoInputSourceConnected</Type>
+    </Message>
+    <Message item="7" maxOccurrence="n">
+      <Description>No screen detected on video output configured for OSD.</Description>
+      <Level>Warning</Level>
+      <References></References>
+      <Type>OSDVideoOutput</Type>
+    </Message>
+  </Diagnostics>
+</Status>

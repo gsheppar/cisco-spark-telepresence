@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Command>
+	<CallHistory>
+		<Get command="True"> 
+			<Filter>All</Filter> 
+			<Offset>0</Offset> 
+			<Limit>1</Limit>
+          <DetailLevel>Full</DetailLevel>
+		</Get>
+	</CallHistory> 
+</Command>
+

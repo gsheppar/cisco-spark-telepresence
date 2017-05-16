@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Command>
+  <UserInterface>
+    <Message>
+      <Prompt>
+        <Display command="True"> 
+          <Title>Video Services</Title>
+          <Text>Would you like me to try dial this number loopback@cisco.com?</Text>
+          <FeedbackId>3</FeedbackId>
+          <Option.1>Yes</Option.1>
+          <Option.2>No</Option.2>
+        </Display>
+      </Prompt>
+    </Message>
+  </UserInterface>
+</Command>

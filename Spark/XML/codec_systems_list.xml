@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Systems>
+    <Name id="CR Cavs">
+        <Address>192.168.128.121</Address>
+    </Name>
+    <Name id="CR Celtics">
+        <Address>192.168.128.121</Address>
+    </Name>
+    <Name id="CR Thunder">
+        <Address>192.168.128.121</Address>
+    </Name>
+    <Name id="CR Warriors">
+        <Address>192.168.128.121</Address>
+    </Name>
+</Systems>

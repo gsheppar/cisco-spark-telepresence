@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Command>
+  <UserInterface>
+    <Message>
+      <TextLine>
+        <Display command="True"> 
+          <Text>You have a new message on the touch 10</Text>
+          <Duration>5</Duration>
+        </Display>
+      </TextLine>
+    </Message>
+  </UserInterface>
+</Command>

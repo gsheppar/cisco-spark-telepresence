@@ -1,0 +1,1545 @@
+192.168.128.121:message be there soon
+SYSTEM NAME: CR Cavs --- User Acknowledged
+192.168.128.121:message be there soon
+SYSTEM NAME: CR Cavs --- User Acknowledged
+192.168.128.121:message be there soon
+SYSTEM NAME: CR Cavs --- User Acknowledged
+192.168.128.121:message be there soon
+SYSTEM NAME: CR Cavs --- User Acknowledged
+192.168.121.128:test help
+
+192.168.128.121:message be there soon
+SYSTEM NAME: CR Cavs --- User Acknowledged
+
+192.168.128.121:message be there soon
+SYSTEM NAME: CR Cavs --- User Acknowledged
+CR Cavs:test help
+CR Cavs:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+CR Cavs:test help
+192.168.128.121:message be there soon
+SYSTEM NAME: CR Cavs --- User Acknowledged
+
+CR Cavs:test help
+192.168.121.128:test help
+192.168.128.121:message be there soon
+SYSTEM NAME: CR Cavs --- User Acknowledged
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+192.168.121.128:test help
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+192.168.121.128:test help
+
+192.168.121.128:test help
+
+192.168.121.128:test help
+192.168.128.121:test help
+192.168.128.121:test help
+
+192.168.128.121:test help
+192.168.128.121:test help
+
+192.168.128.121:test help
+192.168.128.121:test help
+192.168.128.121:test help
+192.168.128.121:test help
+
+192.168.128.121:test help
+
+
+
+
+192.168.128.121:test help
+192.168.128.121:test help
+
+192.168.128.121:test help
+192.168.128.121:test help
+192.168.128.121:test help
+192.168.128.121:test help
+
+
+
+
+
+
+192.168.128.121:test help
+192.168.128.121:test help
+192.168.128.121:test help
+
+
+192.168.128.121:test help
+192.168.128.121:test help
+
+192.168.128.121:test help
+CR Cavs:test help
+
+
+CR Cavs:test help
+
+CR Cavs:message Did this work?
+CR Cavs:message Did this work?
+SYSTEM NAME: CR Cavs --- User Acknowledged
+CR Cavs:question Did this work?
+SYSTEM NAME: CR Cavs --- User Answered: Yes
+CR Cavs:dial gsheppar@cisco.com
+CR Cavs:diag
+
+CR Cavs:diag
+CR Cavs:diag
+
+CR Cavs:diag
+CR Cavs:diag
+CR Cavs:diag
+got it
+CR Cavs:diag
+
+CR Cavs:diag
+
+CR Cavs:diag
+
+CR Cavs:diag
+
+CR Cavs:diag
+CR Cavs:diag
+CR Cavs:diag
+It did not work
+CR Cavs:diag
+SYSTEM NAME: CR Cavs --- Dialing problem on previous dailed number h323:loopback@cisco.com
+SYSTEM NAME: CR Cavs TYPE: Cisco TelePresence SX20 SW VERSION: ce8.2.1.e9daf06 --- Requesting live support at this location
+CR Cavs:message Okay be right over
+SYSTEM NAME: CR Cavs --- User Acknowledged
+CR Cavs:diag
+
+CR Cavs:diag
+
+CR Cavs:diag
+CR Cavs:diag
+<?xml version="1.0"?>
+<Status product="Cisco Codec" version="ce8.2.1.e9daf06" apiVersion="4">
+  <Diagnostics>
+    <Message item="2" maxOccurrence="n">
+      <Description>No camera is detected</Description>
+      <Level>Warning</Level>
+      <References></References>
+      <Type>CamerasDetected</Type>
+    </Message>
+    <Message item="5" maxOccurrence="n">
+      <Description>No input video signal on selected input connector HDMI 1</Description>
+      <Level>Error</Level>
+      <References>Connector=HDMI;Source=1</References>
+      <Type>SelectedVideoInputSourceConnected</Type>
+    </Message>
+    <Message item="7" maxOccurrence="n">
+      <Description>No screen detected on video output configured for OSD.</Description>
+      <Level>Warning</Level>
+      <References></References>
+      <Type>OSDVideoOutput</Type>
+    </Message>
+  </Diagnostics>
+</Status>
+
+
+
+CR Cavs:diag
+No camera is detected
+CR Cavs:diag
+No camera is detected
+CR Cavs:diag
+No camera is detected
+
+No camera is detected
+No camera is detected
+No camera is detected
+No camera is detected
+No camera is detected
+No camera is detected
+No camera is detected
+No camera is detected
+No camera is detected
+No camera is detected
+CR Cavs:diag
+No screen detected on video output configured for OSD.
+CR Cavs:diag
+No camera is detected
+CR Cavs:diag
+No camera is detected
+CR Cavs:diag
+No screen detected on video output configured for OSD.
+CR Cavs:diag
+No screen detected on video output configured for OSD.
+CR Cavs:diag
+No camera is detected
+No input video signal on selected input connector HDMI 1
+No screen detected on video output configured for OSD.
+CR Cavs:diag
+CR CavsNo camera is detected
+CR CavsNo input video signal on selected input connector HDMI 1
+CR CavsNo screen detected on video output configured for OSD.
+CR Cavs:diag
+0No camera is detected
+0No input video signal on selected input connector HDMI 1
+0No screen detected on video output configured for OSD.
+CR Cavs:diag
+CR Cavs: No camera is detected
+CR Cavs: No input video signal on selected input connector HDMI 1
+CR Cavs: No screen detected on video output configured for OSD.
+CR Cavs:diag
+CR Cavs: No camera is detected
+CR Cavs: No input video signal on selected input connector HDMI 1
+CR Cavs: No screen detected on video output configured for OSD.
+:list
+CR Cavs
+
+:list
+CR Cavs
+:list
+Old
+SYSTEM NAME: CR Cavs TYPE: Cisco TelePresence SX20 SW VERSION: ce8.2.1.e9daf06 --- Requesting tech support call
+CR Cavs:message Will be over in 5 minutes
+SYSTEM NAME: CR Cavs --- User Acknowledged
+CR Cavs:diag
+CR Cavs: No camera is detected
+CR Cavs: No input video signal on selected input connector HDMI 1
+CR Cavs: No screen detected on video output configured for OSD.
+
+
+
+SYSTEM NAME: CR Cavs TYPE: Cisco TelePresence SX20 SW VERSION: ce8.2.1.e9daf06 --- Requesting live support at this location
+
+SYSTEM NAME: CR Cavs TYPE: Cisco TelePresence SX20 SW VERSION: ce8.2.1.e9daf06 --- Requesting live support at this location
+CR Cavs:message I will be over in 5 minutes
+SYSTEM NAME: CR Cavs --- User Acknowledged
+SYSTEM NAME: CR Cavs --- Dialing problem on previous dailed number h323:loopback@cisco.com
+CR Cavs:question Would you like me to try dial for you?
+SYSTEM NAME: CR Cavs --- User Answered: Yes
+CR Cavs:dial loopback@cisco.com
+SYSTEM NAME: CR Cavs --- LIVE CALL video quality problems
+CR Cavs:diag
+CR Cavs: No camera is detected
+CR Cavs: No input video signal on selected input connector HDMI 1
+CR Cavs: No screen detected on video output configured for OSD.
+CR Cavs:message Hi i see your problem and will be over in 5 minutes to resolve this issue
+SYSTEM NAME: CR Cavs --- User Acknowledged
+
+SYSTEM NAME: CR Cavs --- User reported poor experience on previoius call due to audio quality problems on previous dailed number h323:loopback@cisco.com ----- incoming packet loss percentage: 0 outgoing packet loss percentage: 0
+
+SYSTEM NAME: CR Cavs TYPE: Cisco TelePresence SX20 SW VERSION: ce8.2.1.e9daf06 --- Requesting live support at this location
+CR Cavs:message Hi I will be over in 5 minutes
+SYSTEM NAME: CR Cavs --- User Acknowledged
+SYSTEM NAME: CR Cavs --- Dialing problem on previous dailed number h323:loopback@cisco.com
+CR Cavs:question Would you like me to try make this dial for you?
+SYSTEM NAME: CR Cavs --- User Answered: Yes
+CR Cavs:dial loopback@cisco.com
+
+SYSTEM NAME: CR Cavs TYPE: Cisco TelePresence SX20 SW VERSION: ce8.2.1.e9daf06 --- Requesting live support at this location
+CR Cavs:message Hi I got your message and will be over in 5 minutes
+SYSTEM NAME: CR Cavs --- User Acknowledged
+SYSTEM NAME: CR Cavs --- Dialing problem on previous dailed number h323:loopback@cisco.com
+CR Cavs:question Would you like me to try dial this number loopback@cisco.com?
+SYSTEM NAME: CR Cavs --- User Answered: Yes
+CR Cavs:dial loopback@cisco.com
+SYSTEM NAME: CR Cavs --- LIVE CALL video quality problems
+CR Cavs:diag
+CR Cavs: No camera is detected
+CR Cavs: No input video signal on selected input connector HDMI 1
+CR Cavs: No screen detected on video output configured for OSD.
+CR Cavs:message Thanks for the report I see the issue and will be over in 5 minutes
+SYSTEM NAME: CR Cavs --- User Acknowledged
+SYSTEM NAME: CR Cavs --- User reported poor experience on previoius call due to video quality problems on previous dailed number h323:loopback@cisco.com ----- incoming packet loss percentage: 0 and outgoing packet loss percentage: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CR Cavs:diag
+CR Cavs: No camera is detected
+CR Cavs:diag
+CR Cavs: No camera is detected
+
+
+CR Cavs:diag
+CR Cavs: No camera is detected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+spanning-tree mode pvst
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CR Cavs:diag
+CR Cavs: No camera is detected
+
+
+
+192.168.121.128:test help
+CR Cavs:diag
+
+CR Cavs:diag
+
+CR Cavs:message You okay
+CR Cavs:diag
+
+CR Cavs Diagnostics Report
+CR Cavs:diag
+
+SYSTEM NAME: CR Cavs --- User Acknowledged
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYSTEM NAME: CR Cavs TYPE: Cisco TelePresence SX20 SW VERSION: ce8.2.1.e9daf06 --- Requesting tech support call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:list
+:list
+:list
+:list
+
+:list
+
+:list
+
+:list
+
+:list
+
+:list
+
+:list
+
+:list
+
+help
+
+help
+
+:list
+
+help
+
+help
+
+:list
+
+I can help
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

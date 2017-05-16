@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Command>
+  <UserInterface>
+    <Message>
+      <Prompt>
+        <Display command="True"> 
+          <Title>Video Services</Title>
+          <Text>Please rate the quaility of your previous call</Text>
+          <FeedbackId>1</FeedbackId>
+          <Option.1>Excellent</Option.1>
+          <Option.2>Good</Option.2>
+          <Option.3>Poor</Option.3>
+          <Option.4>No Response</Option.4>
+        </Display>
+      </Prompt>
+    </Message>
+  </UserInterface>
+</Command>

@@ -1,0 +1,15 @@
+<Command>
+  <UserInterface>
+    <Message>
+      <Prompt>
+        <Display command="True"> 
+          <Title>Altria Video Services</Title>
+          <Text>Video Support Option Menu</Text>
+          <FeedbackId>12</FeedbackId>
+          <Option.1>Request to speak with help desk</Option.1>
+          <Option.2>Ask for live in-preson support</Option.2>
+        </Display>
+      </Prompt>
+    </Message>
+  </UserInterface>
+</Command>
